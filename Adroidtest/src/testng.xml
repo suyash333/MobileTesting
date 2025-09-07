@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MobileTestSuite">
+    <test name="LoginTests">
+        <classes>
+            <class name="com.mobiletesting.tests.LoginTest"/>
+        </classes>
+    </test>
+    
+    <test name="HomeScreenTests">
+        <classes>
+            <class name="com.mobiletesting.tests.HomeScreenTest"/>
+        </classes>
+    </test>
+</suite>
